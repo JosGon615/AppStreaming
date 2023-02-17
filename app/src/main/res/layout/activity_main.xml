@@ -29,7 +29,6 @@
         android:layout_height="38dp"
         android:background="@drawable/fullbutton"
         android:backgroundTint="#fab818"
-        android:drawable="@drawable/crownblack"
         android:text="@string/explorar_prueba_gratuita"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +36,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.855"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+      />
+
+    <!--<com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonExplorar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fullbutton"
+
+        android:backgroundTint="#fab818"
+        android:text="@string/explorar_prueba_gratuita"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintButtonSize" />
+-->
 
     <ImageView
         android:id="@+id/imageView3"
@@ -49,13 +64,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.704"
-        app:srcCompat="@drawable/ic_toolbar_logo" />
+        app:srcCompat="@drawable/ic_toolbar_logo"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="350dp"
         android:layout_height="31dp"
-        android:text="Todo tu anime favorito. Todo en un solo lugar."
+        android:text="@string/todo_tu_anime_favorito_todo_en_un_solo_lugar"
         android:textColor="#FAFAFA"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,9 +85,15 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="o"
+        android:text="@string/o"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="750dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,5 +3,6 @@
     android:shape="rectangle" >
     <!-- Le daremos un radio de 5dp-->
     <corners
-        android:radius="0dp"/>
+       android:radius="0dp"/>
+
 </shape>
