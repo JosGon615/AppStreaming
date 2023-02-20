@@ -20,7 +20,7 @@
         <item name="android:background">@drawable/borderbutton</item>
         <item name="android:foreground">@drawable/borderbutton</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:text">@string/acceder</item>
+
         <item name="android:textStyle">bold</item>
         <item name="android:letterSpacing">0.01</item>
 

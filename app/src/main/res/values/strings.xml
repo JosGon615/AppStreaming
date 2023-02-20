@@ -5,10 +5,16 @@
     <string name="todo_tu_anime_favorito_todo_en_un_solo_lugar">Todo tu anime favorito. Todo en un solo lugar.</string>
     <string name="o_Crear_cuenta">o Crear Cuenta</string>
     <string name="email_o_nombre_de_usuario">Email o nombre de usuario</string>
+    <string name="email">Email</string>
     <string name="contrase_a">Contraseña</string>
     <string name="terminos_politicas">Al usar tu cuenta accedes a nuestros Términos y Política de Privacidad y confirmas que tienes 16 años o más.</string>
+    <string name="terminos_politicas2">Usando Crunchyroll accedes a nuestros Términos y Política de Privacidad y confirmas que tienes 16 años o más.</string>
     <string name="accederT">Acceder</string>
     <string name="olvidaste_tu_contrase_a">¿Has olvidado tu contraseña?</string>
     <string name="pipe">|</string>
     <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="check">Quiero estar al día sobre Crunchyroll, ofertas y noticias.</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="restablecer">Se enviará un enlace para restablecer la contraseña a tu email si la cuenta existe</string>
+
 </resources>

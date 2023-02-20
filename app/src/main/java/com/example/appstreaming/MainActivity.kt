@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, Acceder::class.java)
             startActivity(intent)
         }
+        binding.crearCuenta.setOnClickListener {
+            val intent = Intent(this@MainActivity, CrearCuenta::class.java)
+            startActivity(intent)
+        }
 
     }
     private fun textColor(){

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:backgroundTint="#000000"
-    tools:context=".Acceder">
+    tools:context=".CrearCuenta">
 
     <ImageView
         android:id="@+id/imageView"
@@ -26,7 +26,7 @@
         style="@style/TextViewWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/accederT"
+        android:text="@string/crear_cuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,72 +50,59 @@
     <Button
         android:id="@+id/button"
         style="@style/buttonAcceder"
-        android:text="@string/acceder"
+        android:text="@string/crear_cuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709"
+        app:layout_constraintVertical_bias="0.738"
         tools:ignore="MissingConstraints,TextContrastCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,VisualLintButtonSize" />
 
     <TextView
-        android:id="@+id/olvidar"
+        android:id="@+id/Acceder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/olvidaste_tu_contrase_a"
-        android:textColor="#F47521"
-        android:textSize="13sp"
+        android:text="@string/accederT"
+        android:textColor="#F37521"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintHorizontal_bias="0.71"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785"
+        app:layout_constraintVertical_bias="0.832"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pipe"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/CrearC"
-        app:layout_constraintStart_toEndOf="@+id/olvidar"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.159"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/CrearC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/crear_cuenta"
-        android:textColor="#f47521"
-        android:textSize="13sp"
+        android:text="@string/ya_tienes_una_cuenta"
+        android:textColor="#FAFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.832"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/terminos"
-        android:layout_width="355dp"
-        android:layout_height="48dp"
-        android:gravity="center"
-        android:text="@string/terminos_politicas"
-        android:textColor="#FFFFFF"
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:textColor="#FAFAFA"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.591"
+        tools:ignore="MissingConstraints,VisualLintButtonSize" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
         android:layout_width="341dp"
         android:layout_height="59dp"
         android:backgroundTint="#f37521"
@@ -125,13 +112,13 @@
         app:endIconMode="password_toggle"
         app:endIconTint="@color/white"
         app:hintTextColor="#FAFAFA"
-        app:layout_constraintBottom_toBottomOf="parent"
 
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514"
+        app:layout_constraintVertical_bias="0.513"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -156,6 +143,21 @@
             tools:ignore="Autofill,SpeakableTextPresentCheck,TextContrastCheck,TextContrastCheck,TextFields" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/terminos"
+        android:layout_width="355dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/terminos_politicas2"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661"
+        tools:ignore="TextSizeCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="341dp"
@@ -182,7 +184,7 @@
             android:backgroundTint="#141519"
             android:ems="10"
             android:focusable="auto"
-            android:hint="@string/email_o_nombre_de_usuario"
+            android:hint="@string/email"
             android:textColor="#FAFAFA"
             android:textCursorDrawable="@drawable/text_cursor"
             app:layout_constraintBottom_toBottomOf="parent"

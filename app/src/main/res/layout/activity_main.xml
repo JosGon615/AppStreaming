@@ -10,6 +10,7 @@
     <Button
         android:id="@+id/acceder"
         style="@style/buttonAcceder"
+        android:text="@string/acceder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
