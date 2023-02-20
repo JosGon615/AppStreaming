@@ -10,89 +10,75 @@
     <Button
         android:id="@+id/button"
         android:layout_width="349dp"
-        android:layout_height="38dp"
+        android:layout_height="35dp"
         android:background="@drawable/borderbutton"
+        android:foreground="@drawable/borderbutton"
         android:text="@string/acceder"
         android:textColor="#F47521"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.921"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck,VisualLintButtonSize" />
 
-    <Button
-        android:id="@+id/button2"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonExplorar"
         android:layout_width="349dp"
-        android:layout_height="38dp"
-        android:background="@drawable/fullbutton"
+        android:layout_height="43dp"
         android:backgroundTint="#fab818"
+        android:foreground="@drawable/fullbutton"
         android:text="@string/explorar_prueba_gratuita"
+        android:textColor="#000000"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/crownblackc"
+        app:iconGravity="textStart"
+        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855"
-        tools:ignore="MissingConstraints"
-      />
-
-    <!--<com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonExplorar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/fullbutton"
-
-        android:backgroundTint="#fab818"
-        android:text="@string/explorar_prueba_gratuita"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="VisualLintButtonSize" />
--->
+        app:layout_constraintVertical_bias="0.857"
+        tools:ignore="VisualLintButtonSize,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="160dp"
-        android:layout_height="27dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.704"
-        app:srcCompat="@drawable/ic_toolbar_logo"
-        tools:ignore="ContentDescription" />
+       android:id="@+id/imageView3"
+       style="@style/logoSize"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.497"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.704"
+       app:srcCompat="@drawable/ic_toolbar_logo"
+       tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/todoTu"
         android:layout_width="350dp"
         android:layout_height="31dp"
+        style="@style/TextViewWhite"
         android:text="@string/todo_tu_anime_favorito_todo_en_un_solo_lugar"
-        android:textColor="#FAFAFA"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintVertical_bias="0.775"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/crearCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/o"
+        android:text="@string/o_Crear_cuenta"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979"
+        app:layout_constraintVertical_bias="0.969"
         tools:ignore="MissingConstraints" />
 
 

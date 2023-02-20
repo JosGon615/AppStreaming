@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AppStreaming</string>
     <string name="explorar_prueba_gratuita">explorar prueba gratuita</string>
-    <string name="acceder">acceder</string>
+    <string name="acceder">Acceder</string>
     <string name="todo_tu_anime_favorito_todo_en_un_solo_lugar">Todo tu anime favorito. Todo en un solo lugar.</string>
-    <string name="o">o</string>
+    <string name="o_Crear_cuenta">o Crear Cuenta</string>
 </resources>
