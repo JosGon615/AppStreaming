@@ -11,5 +11,20 @@
         <item name="android:textSize">17sp</item>
     </style>
 
+    <style name="buttonAcceder" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">349dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:focusable">auto</item>
+        <item name="android:textColor">#f47521</item>
+        <item name="android:background">@drawable/borderbutton</item>
+        <item name="android:foreground">@drawable/borderbutton</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:text">@string/acceder</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+
+    </style>
+
 
 </resources>

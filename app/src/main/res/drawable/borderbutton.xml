@@ -12,5 +12,5 @@
     <!--Establecemos el ancho de la línea y el color de la misma-->
     <stroke
         android:width="2dip"
-        android:color="#f47521"/>
+        android:color="#b34803"/>
 </shape>

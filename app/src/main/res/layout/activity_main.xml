@@ -9,12 +9,7 @@
 
     <Button
         android:id="@+id/acceder"
-        android:layout_width="349dp"
-        android:layout_height="35dp"
-        android:background="@drawable/borderbutton"
-        android:foreground="@drawable/borderbutton"
-        android:text="@string/acceder"
-        android:textColor="#F47521"
+        style="@style/buttonAcceder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
@@ -26,9 +21,10 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/explorar"
         android:layout_width="349dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:backgroundTint="#fab818"
         android:foreground="@drawable/fullbutton"
+        android:letterSpacing="0.01"
         android:text="@string/explorar_prueba_gratuita"
         android:textColor="#000000"
         app:cornerRadius="0dp"
