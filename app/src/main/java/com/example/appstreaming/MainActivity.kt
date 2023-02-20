@@ -1,5 +1,6 @@
 package com.example.appstreaming
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,6 +17,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         textColor()
+
+
+
+        binding.explorar.setOnClickListener {
+            val intent = Intent(this@MainActivity, Explorar::class.java)
+            startActivity(intent)
+        }
+        binding.acceder.setOnClickListener {
+            val intent = Intent(this@MainActivity, Acceder::class.java)
+            startActivity(intent)
+        }
 
     }
     private fun textColor(){

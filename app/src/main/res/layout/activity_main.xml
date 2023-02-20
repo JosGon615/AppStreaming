@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/acceder"
         android:layout_width="349dp"
         android:layout_height="35dp"
         android:background="@drawable/borderbutton"
@@ -24,7 +24,7 @@
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck,VisualLintButtonSize" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonExplorar"
+        android:id="@+id/explorar"
         android:layout_width="349dp"
         android:layout_height="43dp"
         android:backgroundTint="#fab818"

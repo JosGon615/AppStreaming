@@ -4,4 +4,6 @@
     <string name="acceder">Acceder</string>
     <string name="todo_tu_anime_favorito_todo_en_un_solo_lugar">Todo tu anime favorito. Todo en un solo lugar.</string>
     <string name="o_Crear_cuenta">o Crear Cuenta</string>
+    <string name="email_o_nombre_de_usuario">Email o nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
 </resources>
