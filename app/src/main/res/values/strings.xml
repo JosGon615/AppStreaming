@@ -21,5 +21,9 @@
     <string name="crunchyroll_premium">Crunchyroll Premium</string>
     <string name="suscr_bete_con_una_prueba_gratuita">suscríbete con una prueba gratuita</string>
     <string name="prueba_gratuita_de_14_d_as">Prueba gratuita de 14 días</string>
+    <string name="mes">/ mes</string>
+    <string name="_6_49">6,49 €</string>
+    <string name="mega_fan">MEGA FAN</string>
+    <string name="mejor_oferta">MEJOR OFERTA</string>
 
 </resources>

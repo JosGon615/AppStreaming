@@ -34,23 +34,6 @@ class Acceder : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //cambiar backgroundTint de los editText al hacer click
-        binding.user.setOnFocusChangeListener { _, hasFocus ->
-            if (hasFocus) {
-                binding.user.background.setTint(Color.parseColor("#24252a"))
-            } else {
-                binding.user.background.setTint(Color.parseColor("#57585a"))
-            }
-        }
-        binding.pass.setOnFocusChangeListener { _, hasFocus ->
-            if (hasFocus) {
-                binding.pass.background.setTint(Color.parseColor("#24252a"))
-
-            } else {
-                binding.pass.background.setTint(Color.parseColor("#57585a"))
-            }
-        }
-
         textColor()
 
     }
