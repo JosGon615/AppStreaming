@@ -10,6 +10,7 @@
     <Button
         android:id="@+id/acceder"
         style="@style/buttonAcceder"
+        android:fontFamily="@font/lato_bold"
         android:text="@string/acceder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +25,7 @@
         android:layout_width="349dp"
         android:layout_height="48dp"
         android:backgroundTint="#f9b718"
+        android:fontFamily="@font/lato_bold"
         android:foreground="@drawable/fullbutton"
         android:letterSpacing="0.01"
         android:text="@string/explorar_prueba_gratuita"
@@ -53,9 +55,10 @@
 
     <TextView
         android:id="@+id/todoTu"
+        style="@style/TextViewWhite"
         android:layout_width="350dp"
         android:layout_height="31dp"
-        style="@style/TextViewWhite"
+        android:fontFamily="@font/lato"
         android:text="@string/todo_tu_anime_favorito_todo_en_un_solo_lugar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +72,7 @@
         android:id="@+id/crearCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
         android:text="@string/o_Crear_cuenta"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
