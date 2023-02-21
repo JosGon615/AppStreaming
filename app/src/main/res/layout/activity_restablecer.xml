@@ -14,7 +14,7 @@
         style="@style/TextViewWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Restablecer contraseña"
+        android:text="@string/restablecer_contrase_a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/button"
         style="@style/buttonAcceder"
-        android:text="enviar enlace para el reinicio"
+        android:text="@string/enviar_enlace_para_el_reinicio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

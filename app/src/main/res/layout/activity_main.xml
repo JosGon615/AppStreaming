@@ -23,7 +23,7 @@
         android:id="@+id/explorar"
         android:layout_width="349dp"
         android:layout_height="48dp"
-        android:backgroundTint="#fab818"
+        android:backgroundTint="#f9b718"
         android:foreground="@drawable/fullbutton"
         android:letterSpacing="0.01"
         android:text="@string/explorar_prueba_gratuita"

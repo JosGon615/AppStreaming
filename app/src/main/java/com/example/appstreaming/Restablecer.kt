@@ -3,14 +3,15 @@ package com.example.appstreaming
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.appstreaming.databinding.ActivityOlvidadoBinding
+
+import com.example.appstreaming.databinding.ActivityRestablecerBinding
 
 class Restablecer : AppCompatActivity() {
 
-    private lateinit var binding: ActivityOlvidadoBinding
+    private lateinit var binding: ActivityRestablecerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityOlvidadoBinding.inflate(layoutInflater)
+        binding = ActivityRestablecerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.arrow.setOnClickListener {

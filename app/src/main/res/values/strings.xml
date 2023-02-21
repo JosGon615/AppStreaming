@@ -16,5 +16,10 @@
     <string name="check">Quiero estar al día sobre Crunchyroll, ofertas y noticias.</string>
     <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
     <string name="restablecer">Se enviará un enlace para restablecer la contraseña a tu email si la cuenta existe</string>
+    <string name="restablecer_contrase_a">Restablecer contraseña</string>
+    <string name="enviar_enlace_para_el_reinicio">enviar enlace para el reinicio</string>
+    <string name="crunchyroll_premium">Crunchyroll Premium</string>
+    <string name="suscr_bete_con_una_prueba_gratuita">suscríbete con una prueba gratuita</string>
+    <string name="prueba_gratuita_de_14_d_as">Prueba gratuita de 14 días</string>
 
 </resources>
