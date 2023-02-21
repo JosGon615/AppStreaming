@@ -34,6 +34,10 @@ class Acceder : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.acceder.setOnClickListener {
+            val intent = Intent(this@Acceder, MainActivity2::class.java)
+            startActivity(intent)
+        }
         textColor()
 
     }

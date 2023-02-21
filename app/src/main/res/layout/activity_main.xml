@@ -42,16 +42,17 @@
         tools:ignore="VisualLintButtonSize,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
-       android:id="@+id/imageView3"
-       style="@style/logoSize"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.497"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.704"
-       app:srcCompat="@drawable/ic_toolbar_logo"
-       tools:ignore="ContentDescription" />
+        android:id="@+id/imageView3"
+        style="@style/logoSize"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        app:srcCompat="@drawable/ic_toolbar_logo"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/todoTu"

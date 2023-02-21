@@ -37,8 +37,8 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/explorar"
-        android:layout_width="349dp"
-        android:layout_height="48dp"
+        android:layout_width="383dp"
+        android:layout_height="50dp"
         android:backgroundTint="#f9b718"
         android:fontFamily="@font/lato_bold"
         android:foreground="@drawable/fullbutton"

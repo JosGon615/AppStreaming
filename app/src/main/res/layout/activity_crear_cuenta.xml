@@ -124,6 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.513"
+        app:startIconTint="#F37521"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -181,6 +182,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.412"
+        app:startIconTint="#F37521"
         tools:ignore="MissingConstraints">
 
         <EditText

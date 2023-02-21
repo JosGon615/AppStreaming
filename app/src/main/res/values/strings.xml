@@ -3,7 +3,7 @@
     <string name="explorar_prueba_gratuita">explorar prueba gratuita</string>
     <string name="acceder">ACCEDER</string>
     <string name="todo_tu_anime_favorito_todo_en_un_solo_lugar">Todo tu anime favorito. Todo en un solo lugar.</string>
-    <string name="o_Crear_cuenta">o Crear Cuenta</string>
+    <string name="o_Crear_cuenta">o  Crear Cuenta</string>
     <string name="email_o_nombre_de_usuario">Email o nombre de usuario</string>
     <string name="email">Email</string>
     <string name="contrase_a">Contraseña</string>
@@ -31,5 +31,5 @@
     <string name="episodios_y_peliculas_para_verlos_sin_conexi_n">Episodios y peliculas para verlos sin conexión</string>
     <string name="_16_de_descuento_en_plan_mensual_cargo_anual">16% de descuento en Plan Mensual (cargo anual)</string>
     <string name="en_hasta_4_dispositivos_a_la_vez">En hasta 4 dispositivos a la vez</string>
-
+    <string name="vinland_desc">Cuando Thors, un gran guerrero vikingo muere asesinado en batalla a manos de Askeladd, un mercenario, su hijo, Thorfinn, jura vengarse. Para ello tendrá que demostrar ...</string>
 </resources>

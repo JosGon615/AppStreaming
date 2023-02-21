@@ -5,13 +5,16 @@
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fontFamily="@font/lato_bold"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
-        tools:targetApi="31"
-        android:fontFamily="@font/lato_bold">
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
         <activity
             android:name=".Restablecer"
             android:exported="false" />

@@ -48,7 +48,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/acceder"
         style="@style/buttonAcceder"
         android:fontFamily="@font/lato_bold"
         android:text="@string/acceder"
@@ -136,6 +136,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.514"
+        app:startIconTint="#F37521"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -177,6 +178,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.412"
+        app:startIconTint="#F37521"
         tools:ignore="MissingConstraints">
 
         <EditText
