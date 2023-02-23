@@ -13,6 +13,7 @@ class Explorar : AppCompatActivity() {
         binding = ActivityExplorarBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //al presionar el boton se abre la actividad principal
         binding.cross.setOnClickListener {
             val intent = Intent(this@Explorar, MainActivity::class.java)
             startActivity(intent)

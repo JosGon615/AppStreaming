@@ -32,4 +32,11 @@
     <string name="_16_de_descuento_en_plan_mensual_cargo_anual">16% de descuento en Plan Mensual (cargo anual)</string>
     <string name="en_hasta_4_dispositivos_a_la_vez">En hasta 4 dispositivos a la vez</string>
     <string name="vinland_desc">Cuando Thors, un gran guerrero vikingo muere asesinado en batalla a manos de Askeladd, un mercenario, su hijo, Thorfinn, jura vengarse. Para ello tendrá que demostrar ...</string>
+    <string name="ver_ahora">VER AHORA</string>
+    <string name="nuestras_recomendaciones">NUESTRAS RECOMENDACIONES</string>
+    <string name="inicio">Inicio</string>
+    <string name="mis_listas">Mis listas</string>
+    <string name="explorar">Explorar</string>
+    <string name="simulcast">Simulcast</string>
+    <string name="cuenta">Cuenta</string>
 </resources>

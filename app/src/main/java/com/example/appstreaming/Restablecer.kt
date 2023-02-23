@@ -14,6 +14,7 @@ class Restablecer : AppCompatActivity() {
         binding = ActivityRestablecerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Botón para regresar a la pantalla de Acceder
         binding.arrow.setOnClickListener {
             val intent = Intent(this@Restablecer, Acceder::class.java)
             startActivity(intent)

@@ -1,5 +1,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Elegiremos el fondo-->
     <solid android:color="#0000"/>
+
+    <!-- Le daremos un radio de 0dp-->
     <corners android:radius="0dp"/>
+
+    <!--Establecemos el ancho de la línea y el color de la misma-->
     <stroke android:width="2dp" android:color="#f9b718"/>
 </shape>

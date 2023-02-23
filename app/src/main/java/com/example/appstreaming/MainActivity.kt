@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         textColor()
 
 
-
+        //al presionar los botones se abre la actividad correspondiente
         binding.explorar.setOnClickListener {
             val intent = Intent(this@MainActivity, Explorar::class.java)
             startActivity(intent)
@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+    //funcion para cambiar el color de la palabra Crear Cuenta
     private fun textColor(){
         val spannableString = SpannableString("o Crear Cuenta")
         val fcolor = ForegroundColorSpan(Color.parseColor("#f47521"))

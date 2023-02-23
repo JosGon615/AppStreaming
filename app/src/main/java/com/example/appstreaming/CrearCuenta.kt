@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
+import androidx.appcompat.app.AlertDialog
 import com.example.appstreaming.databinding.ActivityCrearCuentaBinding
+import com.google.firebase.auth.FirebaseAuth
 
 
 class CrearCuenta : AppCompatActivity() {
@@ -19,15 +21,19 @@ class CrearCuenta : AppCompatActivity() {
 
         textColor()
 
+        //Botón para cerrar la ventana
         binding.cross.setOnClickListener {
             val intent = Intent(this@CrearCuenta, MainActivity::class.java)
             startActivity(intent)
         }
 
+        //Botón para acceder a la ventana de inicio de sesión
         binding.Acceder.setOnClickListener {
             val intent = Intent(this@CrearCuenta, Acceder::class.java)
             startActivity(intent)
         }
+
+        setup()
     }
 
     private fun textColor(){
@@ -39,5 +45,47 @@ class CrearCuenta : AppCompatActivity() {
 
         binding.terminos.text = spannableString1
     }
+
+    //creacion de perfil de usuario mediante firebase
+    private fun setup(){
+        title = "Crear Cuenta"
+
+        binding.crear.setOnClickListener(){
+            val email = binding.user.text.toString()
+            val password = binding.pass.text.toString()
+
+            if(email.isNotEmpty() && password.isNotEmpty()){
+                FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).addOnCompleteListener(){
+                    if(it.isSuccessful){
+                        showHome(it.result?.user?.email ?: "")
+                    }
+                    else{
+                        showAlert()
+                    }
+                }
+            }
+        }
+    }
+
+    //acceder a la pantalla principal
+    private fun showHome(email: String) {
+        val homeIntent: Intent = Intent(this, MainActivity2::class.java).apply {
+            putExtra("email", email)
+        }
+        startActivity(homeIntent)
+
+    }
+
+    //generar alerta si el usuario no se ha podido crear
+    private fun showAlert() {
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Error")
+        builder.setMessage("Se ha producido un error al autenticar al usuario")
+        builder.setPositiveButton("Aceptar", null)
+        val dialog: AlertDialog = builder.create()
+        dialog.show()
+
+    }
+
 
 }

@@ -35,27 +35,6 @@
         app:layout_constraintVertical_bias="0.022"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/explorar"
-        android:layout_width="383dp"
-        android:layout_height="50dp"
-        android:backgroundTint="#f9b718"
-        android:fontFamily="@font/lato_bold"
-        android:foreground="@drawable/fullbutton"
-        android:letterSpacing="0.01"
-        android:text="@string/suscr_bete_con_una_prueba_gratuita"
-        android:textColor="#000000"
-        app:cornerRadius="0dp"
-        app:icon="@drawable/ic_premium_upgrade_button"
-        app:iconGravity="textStart"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979"
-        tools:ignore="VisualLintButtonSize,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextSizeCheck,TextContrastCheck" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -335,5 +314,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.137"
         tools:ignore="SmallSp,TextSizeCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/explorar"
+        android:layout_width="383dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#f9b718"
+        android:fontFamily="@font/lato_bold"
+        android:foreground="@drawable/fullbutton"
+        android:letterSpacing="0.01"
+        android:text="@string/suscr_bete_con_una_prueba_gratuita"
+        android:textColor="#000000"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/ic_premium_upgrade_button"
+        app:iconGravity="textStart"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        tools:ignore="VisualLintButtonSize,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextSizeCheck,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
